@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Open+Sans:wght@500;800&family=Roboto:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <H1>DINOGOTCHI</H1>
+        <div id="info">
+            <div id="name">DINO NAME</div>
+            <div id="text">
+                <span>AGE</span><p>
+                <span>HUNGER</span><p>
+                <span>SLEEPINESS</span><p>
+                <span>BOREDOM</span><p>
+            </div>
+            <div class="num">
+                <span id="age">0</span><p>
+                <span id="hunger">0</span><p>
+                <span id="sleepiness">0</span><p>
+                <span id="boredom">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="game" style="background-image: url('images/jungle.png') " >
+        
+        <div id="start">
+            <img class="start" id="start-button" type="image" src="images/start.png" onclick="start()"/>
+        </div>
+    </div>
+    <div id="options">
+        <div id="buttons" class="buttons">
+            <img id="food-button" type="image" src="images/chef.png" style="width: 50px;" onclick="feed()"/>
+            <img id="exercise-button" type="image" src="images/exercise.png" style="width: 50px;"onclick="exercise()"/>
+            <img id="light-button" type="image" src="images/switch.png" style="width: 50px;"onclick="lightStwitch()"/>
+            <img id="rules-button" type="image" src="images/book.png" style="width: 50px;" onclick="rules()" />
+            <img id=“restart-button” type="image" src="images/refresh.png" style="width: 50px" onclick="restart()"/>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>Clara Lima 2022</h3>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
